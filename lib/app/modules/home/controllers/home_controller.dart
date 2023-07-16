@@ -43,7 +43,7 @@ class HomeController extends GetxController {
     logger = Logger('FLOWER');
     ip = TextEditingController();
     port = TextEditingController();
-    deviceId = Tehttps://github.com/Anthrapper/flutterFlower  Here is my rough implementation!xtEditingController(text: '1');
+    deviceId = TextEditingController(text: '1');
     tf = const MethodChannel('tl_wrapper');
   }
 
